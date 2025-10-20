@@ -5,6 +5,7 @@ This application will work as a conversion calculator and complete the following
 3. Print the ammount calculated rounded to the hundredths.
 """
 conversionDirection = input("Please choose your input (CAN or USD)?: ")
+capAnswer = capitalize(conversionDirection)
     # $1 CAN = $0.72 USD (10/15/2025)
 CANtoUSD = 0.74 # Live rate is actually $0.72
 USDtoCAN = 1.40 # Live rate is $1.40
